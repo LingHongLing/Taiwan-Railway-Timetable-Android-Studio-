@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Train</string>
+    <string name="activity_setting">提醒功能選擇</string>
+</resources>

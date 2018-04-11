@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="75dp">
+
+    <TextView
+        android:text="TimeDelay"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/TimeDelay"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="TrainNum"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/TrainNo"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize = "16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/TrainType" />
+
+    <TextView
+        android:text="TrainType"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="13dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/TrainType"
+        android:textSize = "22sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="SArrival ~ DArrival"
+        android:layout_width="120dp"
+        android:id="@+id/Time_inout"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/TimeDelay"
+        android:layout_marginEnd="22dp" />
+
+</RelativeLayout>
